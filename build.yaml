@@ -17,9 +17,9 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
-#     shield: nice_view_bongo_cat
-#     shield: nice_view_gem
-#     shield: nice_view_custom
+#     shield: nice_view_adapter nice_view_bongo_cat
+#     shield: nice_view_adapter nice_view_gem
+#     shield: nice_view_adapter nice_view_custom
 
 
 #
