@@ -17,19 +17,26 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    
+    - name: infely                              # new entry
+      url-base: https://github.com/infely       # new entry
+    
+    - name: MrBanh                              # new entry
+      url-base: https://github.com/MrBanh       # new entry
+    
+    - name: m165437                             #new entry
+      url-base: https://github.com/M165437      #new entry
+    
+    - name: gpeye                               #new entry
+      url-base: https://github.com/GPeye        #new entry
 
-    - name: MrBanh # new entry
-      url-base: https://github.com/MrBanh # new entry
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
-    - name: gpeye #new entry
-      url-base: https://github.com/GPeye  #new entry
 
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+
     # Add this below
     - name: nice-view-mod                 #new entry
       remote: gpeye                       #new entry
@@ -41,9 +48,15 @@ manifest:
 
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
-      revision: main #new entry
+      revision: main #new
+
     - name: hammerbeam-slideshow          #new entry
       remote: gpeye                       #new entry
       revision: main                      #new entry
+
+    - name: nice-view-battery                  # new entry
+      remote: infely                           # new entry
+      revision: main                           # new entry
+      
   self:
     path: config
