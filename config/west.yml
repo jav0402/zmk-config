@@ -31,8 +31,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-      
-    # Add this below
+# Add this below
     - name: nice-view-mod                 #new entry
       remote: gpeye                       #new entry
       revision: main                      #new entry
