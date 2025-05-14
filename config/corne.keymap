@@ -53,10 +53,10 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&kp PLUS         &kp Q             &kp W         &kp E               &kp R                 &kp T        &kp Y      &kp U          &kp I                &kp O         &kp BACKSPACE  &kp PIPE
-&kp ESCAPE       &HM_L LEFT_GUI A  &HM_L LALT S  &HM_L LEFT_SHIFT D  &HM_L LEFT_CONTROL F  &kp G        &kp H      &HM_R RCTRL J  &HM_R RIGHT_SHIFT K  &HM_R RALT L  &HM_R RGUI P   &kp KP_EQUAL
-&kp KP_SUBTRACT  &kp Z             &kp X         &kp C               &kp V                 &kp B        &kp N      &kp M          &kp COMMA            &kp DOT       &kp FSLH       &kp UNDERSCORE
-                                                 &kp LGUI            &lt 2 TAB             &kp LSHFT    &kp SPACE  &lt 3 ENTER    &kp RALT
+&kp PLUS         &kp Q             &kp W         &kp E               &kp R                 &kp T            &kp Y      &kp U          &kp I                &kp O         &kp BACKSPACE  &kp PIPE
+&kp ESCAPE       &HM_L LEFT_GUI A  &HM_L LALT S  &HM_L LEFT_SHIFT D  &HM_L LEFT_CONTROL F  &kp G            &kp H      &HM_R RCTRL J  &HM_R RIGHT_SHIFT K  &HM_R RALT L  &HM_R RGUI P   &kp KP_EQUAL
+&kp KP_SUBTRACT  &kp Z             &kp X         &kp C               &kp V                 &kp B            &kp N      &kp M          &kp COMMA            &kp DOT       &kp FSLH       &kp UNDERSCORE
+                                                 &kp LGUI            &lt 2 TAB             &kp BACKSPACE    &kp SPACE  &lt 3 ENTER    &kp RALT
             >;
         };
 
@@ -72,10 +72,10 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&kp PLUS         &kp Q          &kp W         &kp E               &kp R         &kp T        &kp Y      &kp U         &kp I                &kp O         &kp BACKSPACE  &kp PIPE
-&kp ESCAPE       &HM_L LCTRL A  &HM_L LALT S  &HM_L LEFT_SHIFT D  &HM_L LGUI F  &kp G        &kp H      &HM_R RGUI J  &HM_R RIGHT_SHIFT K  &HM_R RALT L  &HM_R RCTRL P  &kp KP_EQUAL
-&kp KP_SUBTRACT  &kp Z          &kp X         &kp C               &kp V         &kp B        &kp N      &kp M         &kp COMMA            &kp DOT       &kp FSLH       &kp UNDERSCORE
-                                              &kp LGUI            &lt 2 TAB     &kp LSHFT    &kp SPACE  &lt 3 ENTER   &kp RALT
+&kp PLUS         &kp Q          &kp W         &kp E               &kp R         &kp T            &kp Y      &kp U         &kp I                &kp O         &kp BACKSPACE  &kp PIPE
+&kp ESCAPE       &HM_L LCTRL A  &HM_L LALT S  &HM_L LEFT_SHIFT D  &HM_L LGUI F  &kp G            &kp H      &HM_R RGUI J  &HM_R RIGHT_SHIFT K  &HM_R RALT L  &HM_R RCTRL P  &kp KP_EQUAL
+&kp KP_SUBTRACT  &kp Z          &kp X         &kp C               &kp V         &kp B            &kp N      &kp M         &kp COMMA            &kp DOT       &kp FSLH       &kp UNDERSCORE
+                                              &kp LGUI            &lt 2 TAB     &kp BACKSPACE    &kp SPACE  &lt 3 ENTER   &kp RALT
             >;
         };
 
