@@ -91,7 +91,7 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5     &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt GRAVE N9  &mt TILDE N0  &trans
+&trans  &mt EXCL N1  &mt N2 AT  &mt N3 HASH  &mt N4 DLLR  &mt N5 PRCNT     &mt N6 CARET  &mt N7 AMPS  &mt N8 ASTRK  &mt N9 GRAVE  &mt N0 TILDE  &trans
 &trans  &kp DQT      &kp LBKT   &kp LBRC     &kp LPAR     &kp LESS_THAN    &kp FSLH      &kp MINUS    &kp EQUAL     &kp COLON     &kp SEMI      &trans
 &trans  &kp SQT      &kp RBKT   &kp RBRC     &kp RPAR     &kp GT           &kp BSLH      &kp UNDER    &kp PLUS      &kp PIPE      &kp QMARK     &trans
                                 &trans       &trans       &trans           &trans        &trans       &trans
