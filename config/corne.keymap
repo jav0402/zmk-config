@@ -42,7 +42,7 @@
         hangul: hangul {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&key_combo_lang &kp LANG_HANGEUL>;
+            bindings = <&kp LCMD &kp SPACE &kp LANG_HANGEUL>;
             label = "HANGUL";
         };
 
