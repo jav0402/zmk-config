@@ -38,19 +38,6 @@
         };
     };
 
-    macros {
-        os_toggle_hangul: os_toggle_hangul {
-            compatible = "zmk,behavior-macros";
-            label = "OS Toggle Hangul";
-            #binding-cells = <0>;
-            bindings = <
-                &lang_hangul         // for Windows
-                &mt LGUI SPACE       // for Mac (Cmd+Space)
-            >;
-
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
