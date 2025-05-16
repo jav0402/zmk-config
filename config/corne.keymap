@@ -136,10 +136,10 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&trans  &kp N1      &kp N2    &kp N3           &kp N4   &kp N5    &kp N6   &kp N7         &kp N8        &kp N9     &kp N0     &trans
-&trans  &kp DELETE  &kp CAPS  &kp PRINTSCREEN  &kp INS  &trans    &hangul  &kp LEFT       &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans
-&trans  &trans      &trans    &trans           &trans   &trans    &trans   &kp C_AC_HOME  &kp PG_UP     &kp PG_DN  &kp END    &trans
-                              &trans           &trans   &trans    &trans   &trans         &trans
+&trans  &kp N1      &kp N2    &kp N3           &kp N4   &kp N5    &kp N6   &kp N7    &kp N8        &kp N9     &kp N0     &trans
+&trans  &kp DELETE  &kp CAPS  &kp PRINTSCREEN  &kp INS  &trans    &trans   &kp LEFT  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans
+&trans  &trans      &trans    &trans           &trans   &trans    &hangul  &kp HOME  &kp PG_UP     &kp PG_DN  &kp END    &trans
+                              &trans           &trans   &trans    &trans   &trans    &trans
             >;
         };
 
