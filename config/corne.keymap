@@ -38,6 +38,23 @@
         };
     };
 
+    macros {
+        hangul: hangul {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&key_combo_lang &kp LANG_HANGEUL>;
+            label = "HANGUL";
+        };
+
+        key_combo_lang: key_combo_lang {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI &kp SPACE>, <&macro_tap>;
+
+            label = "KEY_COMBO_LANG";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
