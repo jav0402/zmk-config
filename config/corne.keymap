@@ -39,12 +39,15 @@
     };
 
     macros {
-        lang_han_tog: lang_han_tog {
-            compatible = "zmk,behavior-macro";
+        os_toggle_hangul: os_toggle_hangul {
+            compatible = "zmk,behavior-macros";
+            label = "OS Toggle Hangul";
             #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
+            bindings = <
+                &lang_hangul         // for Windows
+                &mt LGUI SPACE       // for Mac (Cmd+Space)
+            >;
 
-            label = "LANG_HAN_TOG";
         };
     };
 
