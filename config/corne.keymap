@@ -42,7 +42,7 @@
         mac_lang: hangul {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCMD &kp SPACE>, <&macro_press>;
+            bindings = <&kp LEFT_CONTROL &kp SPACE>, <&macro_press>;
 
             label = "HANGUL";
         };
@@ -50,7 +50,7 @@
         win_lang: key_combo_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LEFT_SHIFT) &kp RIGHT_ALT>, <&macro_press>;
+            bindings = <&kp LSHIFT &kp RIGHT_ALT>, <&macro_press>;
 
             label = "KEY_COMBO_LANG";
         };
