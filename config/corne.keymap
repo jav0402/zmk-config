@@ -39,18 +39,18 @@
     };
 
     macros {
-        hangul: hangul {
+        mac_lang: hangul {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCMD &kp SPACE &kp LANG_HANGEUL>, <&macro_tap>;
+            bindings = <&kp LCMD &kp SPACE>, <&macro_press>;
 
             label = "HANGUL";
         };
 
-        key_combo_lang: key_combo_lang {
+        win_lang: key_combo_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp SPACE>, <&macro_tap>;
+            bindings = <&kp LS(LGUI) &kp RIGHT_ALT>, <&macro_press>;
 
             label = "KEY_COMBO_LANG";
         };
@@ -136,10 +136,10 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&trans  &kp N1      &kp N2    &kp N3           &kp N4   &kp N5    &kp N6   &kp N7    &kp N8        &kp N9     &kp N0     &trans
-&trans  &kp DELETE  &kp CAPS  &kp PRINTSCREEN  &kp INS  &trans    &trans   &kp LEFT  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans
-&trans  &trans      &trans    &trans           &trans   &trans    &hangul  &kp HOME  &kp PG_UP     &kp PG_DN  &kp END    &trans
-                              &trans           &trans   &trans    &trans   &trans    &trans
+&trans  &kp N1      &kp N2    &kp N3           &kp N4   &kp N5    &kp N6     &kp N7    &kp N8        &kp N9     &kp N0     &trans
+&trans  &kp DELETE  &kp CAPS  &kp PRINTSCREEN  &kp INS  &trans    &win_lang  &kp LEFT  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans
+&trans  &trans      &trans    &trans           &trans   &trans    &mac_lang  &kp HOME  &kp PG_UP     &kp PG_DN  &kp END    &trans
+                              &trans           &trans   &trans    &trans     &trans    &trans
             >;
         };
 
