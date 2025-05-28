@@ -72,6 +72,20 @@
             bindings = <&bt BT_SEL 0 &to 1>;
             label = "BT_LAYER_1";
         };
+
+        meh: meh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LSHFT &kp LCTRL &kp LALT>;
+            label = "MEH";
+        };
+
+        hyper: hyper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LSHFT &kp LEFT_SHIFT &kp LALT &kp LGUI>;
+            label = "HYPER";
+        };
     };
 
     keymap {
