@@ -147,9 +147,9 @@
             //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 
             bindings = <
-&trans  &mt N1 RS(N1)  &mt N2 RS(N2)  &mt N3 RS(N3)  &mt N4 RS(N4)  &mt N5 RS(N5)    &mt N6 LS(N6)  &mt N7 LS(N7)  &mt N8 LS(N8)  &mt N9 GRAVE  &mt N0 RS(GRAVE)  &trans
-&trans  &kp DQT        &kp LBKT       &kp LBRC       &kp LPAR       &kp LESS_THAN    &kp FSLH       &kp MINUS      &kp EQUAL      &kp COLON     &kp SEMI          &trans
-&trans  &kp SQT        &kp RBKT       &kp RBRC       &kp RPAR       &kp GT           &kp BSLH       &kp UNDER      &kp PLUS       &kp PIPE      &kp QMARK         &trans
+&trans  &mt N1 RS(N1)  &mt N2 RS(N2)  &mt N3 RS(N3)  &mt N4 RS(N4)  &mt N5 RS(N5)    &mt N6 LS(N6)  &mt N7 LS(N7)  &mt N8 LS(N8)  &mt N9 GRAVE  &mt N0 TILDE  &trans
+&trans  &kp DQT        &kp LBKT       &kp LBRC       &kp LPAR       &kp LESS_THAN    &kp FSLH       &kp MINUS      &kp EQUAL      &kp COLON     &kp SEMI      &trans
+&trans  &kp SQT        &kp RBKT       &kp RBRC       &kp RPAR       &kp GT           &kp BSLH       &kp UNDER      &kp PLUS       &kp PIPE      &kp QMARK     &trans
                                       &trans         &trans         &trans           &trans         &trans         &trans
             >;
         };
