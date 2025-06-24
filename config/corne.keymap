@@ -23,7 +23,8 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             hold-trigger-key-positions = <13 14 15 16>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
         };
 
         HM_R: HM_R {
