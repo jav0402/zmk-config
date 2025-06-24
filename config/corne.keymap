@@ -10,6 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&lt { quick-tap-ms = <150>; };
+
 / {
     behaviors {
         HM_L: HM_L {
@@ -20,9 +22,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41>;
-            flavor = "tap-preferred";
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <13 14 15 16>;
+            flavor = "balanced";
         };
 
         HM_R: HM_R {
@@ -34,7 +35,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             flavor = "tap-preferred";
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 36 37 38>;
+            hold-trigger-key-positions = <19 21 20 22>;
             hold-trigger-on-release;
         };
     };
@@ -108,7 +109,7 @@
 &kp KP_PLUS      &kp Q             &kp W         &kp E                      &kp R                 &kp T              &kp Y        &kp U          &kp I                        &kp O         &kp BACKSPACE  &kp PIPE
 &kp ESCAPE       &HM_L LEFT_GUI A  &HM_L LALT S  &HM_L LEFT_SHIFT D         &HM_L LEFT_CONTROL F  &kp G              &kp H        &HM_R RCTRL J  &HM_R RIGHT_SHIFT K          &HM_R RALT L  &HM_R RGUI P   &kp EQUAL
 &kp KP_SUBTRACT  &kp Z             &kp X         &kp C                      &kp V                 &kp B              &kp N        &kp M          &kp COMMA                    &kp DOT       &kp FSLH       &kp UNDERSCORE
-                                                 &mt LS(LA(LC(LGUI))) LGUI  &kp TAB               &lt 2 BACKSPACE    &lt 3 SPACE  &kp ENTER      &mt LC(LA(LSHFT)) RIGHT_ALT
+                                                 &mt LS(LA(LC(LGUI))) LGUI  &lt 2 TAB             &lt 2 BACKSPACE    &lt 3 SPACE  &lt 3 ENTER    &mt LC(LA(LSHFT)) RIGHT_ALT
             >;
         };
 
