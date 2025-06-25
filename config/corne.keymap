@@ -44,10 +44,7 @@
         mac_lang: hangul {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LEFT_CONTROL &kp SPACE>,
-                <&macro_press>,
-                <&macro_press>;
+            bindings = <&kp LEFT_CONTROL &kp SPACE>, <&macro_press>;
 
             label = "HANGUL";
         };
@@ -91,14 +88,20 @@
         screen_shot_mac: screen_shot_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_3>;
+            bindings =
+                <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_3>,
+                <&macro_press>;
+
             label = "SCREEN_SHOT_MAC";
         };
 
         sc_mac_part: sc_mac_part {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_4>;
+            bindings =
+                <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_4>,
+                <&macro_press>;
+
             label = "SC_MAC_PART";
         };
     };
