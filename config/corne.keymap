@@ -108,7 +108,7 @@
         bt_mac_work: bt_mac_wolrk {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 3 &to 0>;
+            bindings = <&bt BT_SEL 3 &to 1>;
             label = "BT_MAC_WOLRK";
         };
     };
